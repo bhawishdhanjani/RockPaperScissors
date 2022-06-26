@@ -1,0 +1,49 @@
+
+body{
+  color: white;
+  background: rgb(86,25,208);
+  background: linear-gradient(90deg, rgba(86,25,208,1) 0%, rgba(0,212,255,1) 0%, rgba(44,127,203,1) 61%);
+}
+h1,h2 , p{
+  text-align: center;
+}
+h1{
+  font-size: 10vh;
+}
+h2{
+  font-size: 5vh;
+}
+p{
+  font-size: 2vh;
+}
+.players{
+  display: inline-block;
+  width: 30%;
+  height: 50vh;
+  margin: 0vh 5%;
+}
+@media (max-width:900px){
+  .players{
+    width:50%;
+
+  }
+
+}
+.images-container{
+  text-align: center;
+  margin: 5vh 10%;
+}
+.option-images{
+  width: 25%;
+  height: 20vh;
+  margin: 1vh 3%;
+}
+.stars{
+  text-align: center;
+  font-size: 3vh;
+}
+.player-top-container{
+  text-align: center;
+  height: 70vh;
+  margin: 0;
+}
